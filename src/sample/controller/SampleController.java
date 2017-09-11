@@ -53,5 +53,9 @@ public class SampleController
 		System.out.println("Please type your favorite food");
 		String answer = firstScanner.nextLine(); //Stores the answer typed in the scanner (everything)
 		System.out.println("Oh, you like to eat " + answer); //Displays the user likes to eat "answer"
+		System.out.println("How old are you??");
+		int ageAnswer = firstScanner.nextInt();
+		System.out.println("You said that you are " + ageAnswer + " years old");
 	}
+	
 }
