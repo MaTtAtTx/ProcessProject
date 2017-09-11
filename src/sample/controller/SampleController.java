@@ -20,14 +20,20 @@ public class SampleController
 		secondCircle = new PlayDohCircle();
 		
 		PlayDohCircle thirdCircle;
-		thirdCircle = new PlayDohCircle(5);
+		thirdCircle = new PlayDohCircle(2345);
 		
 		PlayDohHexagon firstHexagon = new PlayDohHexagon();
 		
 		PlayDohHexagon secondHexagon = new PlayDohHexagon(500);
 		
-		System.out.print("Here is my play doh circle: ");
+		System.out.print("Here is my first circle: ");
 		System.out.println(firstCircle);
+		
+		System.out.println("Here is my third circle: " + thirdCircle);
+		
+		System.out.println("Here is my first hexagon: " + firstHexagon);
+		
+		System.out.println("Here is my second hexagon: " + secondHexagon);
 		
 		
 		

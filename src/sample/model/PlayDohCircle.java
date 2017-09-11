@@ -17,6 +17,7 @@ public class PlayDohCircle
 		this.size = size;
 	}
 	
+	//String must ALWAYS be capitalized
 	public String toString()
 	{
 		String description = "I am a PlayDohCircle and my size is " + size;

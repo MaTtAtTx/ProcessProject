@@ -14,5 +14,10 @@ public class PlayDohHexagon
 		this.weight = weight;
 	}
 	
+	public String toString()
+	{
+		String description = "I am a hexagon and my weight is " + weight;
+		return description;
+	}
 
 }
