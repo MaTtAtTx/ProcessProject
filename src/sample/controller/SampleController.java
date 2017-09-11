@@ -7,6 +7,7 @@ import sample.model.PlayDohHexagon;
 public class SampleController
 {
 	
+	//This is what the default constructor looks like (same name as the class)
 	public SampleController()
 	{
 		
@@ -14,6 +15,7 @@ public class SampleController
 
 	public void start()
 	{
+		//Both first and second circle are ways you can initialize objects
 		PlayDohCircle firstCircle = new PlayDohCircle();
 		
 		PlayDohCircle secondCircle;
