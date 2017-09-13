@@ -16,7 +16,12 @@ public class PlayDohCircle
 	{
 		this.size = size;
 	}
-
+	
+	public void setSize(int updateSize)
+	{
+		this.size = updateSize;
+	}
+	
 	// String must ALWAYS be capitalized
 	public String toString()
 	{
