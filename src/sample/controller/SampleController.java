@@ -54,7 +54,7 @@ public class SampleController
 		int ageAnswer = firstScanner.nextInt();
 		System.out.println("You said that you are " + ageAnswer + " years old");
 		
-		PlayDohCirlce changeCircle = new PlayDohCircle();
+		PlayDohCircle changeCircle = new PlayDohCircle();
 		System.out.println("Here is the circle before I change it");
 		System.out.println(changeCircle);
 		System.out.println("Type in a new size - use numbers please.");
